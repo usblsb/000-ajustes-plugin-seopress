@@ -1,0 +1,27 @@
+/* Oculta boton de gestion de cookies del plugin de SeoPress */
+#seopress-user-consent-edit {
+display: none;
+}
+
+/* Separación entre botones en el banner de consentimiento */
+#seopress-user-consent-accept,
+#seopress-user-consent-close {
+    margin: 10px;  /* Ajusta este valor según tus necesidades */
+}
+
+/* Hacer que los botones tengan el mismo ancho */
+#seopress-user-consent-accept,
+#seopress-user-consent-close {
+    width: 200px; /* Establece el ancho que prefieras */
+    text-align: center; /* Centra el texto en el botón */
+}
+
+/* Establece el tamaño del texto del aviso */
+.seopress-user-consent p {
+    font-size: 16px!important;
+    line-height: 1.2!important;
+}
+
+.seopress-user-consent.seopress-user-message {
+    flex-direction: column;
+}
